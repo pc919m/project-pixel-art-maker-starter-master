@@ -7,7 +7,7 @@ function makeGrid() {
   
     makeTable.innerHTML = "";
     
-    // Select color input
+    // Input to allow user to select colors
     document.querySelector("#colorPicker").addEventListener("change", function(){
       this.setAttribute("value",document.querySelector("#colorPicker").value);
     });
@@ -26,7 +26,7 @@ function makeGrid() {
     });
   }
   
-  // When size is submitted by the user, call makeGrid
+  // Calls makeGrid() from height and width values selected
   document.querySelector("#sizePicker input[type=submit]").addEventListener("click", function(e){
     e.preventDefault();
     makeGrid();
