@@ -6,8 +6,8 @@
 function makeGrid() {
     // Your code goes here!
     const makeTable = document.querySelector("#pixelCanvas");
-    const gridWidth = document.querySelector("#inputWidth").value;
     const gridHeight = document.querySelector("#inputHeight").value;
+    const gridWidth = document.querySelector("#inputWidth").value;
   
     makeTable.innerHTML = "";
     
