@@ -1,9 +1,13 @@
+// Select color input
+// Select size input
+
+// When size is submitted by the user, call makeGrid()
+
 function makeGrid() {
     // Your code goes here!
     const makeTable = document.querySelector("#pixelCanvas");
     const gridWidth = document.querySelector("#inputWidth").value;
     const gridHeight = document.querySelector("#inputHeight").value;
-    const fragment = document.createDocumentFragment();
   
     makeTable.innerHTML = "";
     
